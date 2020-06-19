@@ -1,0 +1,29 @@
+{
+  "name": "domathbot",
+  "version": "1.0.0",
+  "description": "Telegram bot, which do math",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/masterarthur/do-math-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "MasterArthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/masterarthur/do-math-bot/issues"
+  },
+  "homepage": "https://gitlab.com/masterarthur/do-math-bot#README",
+  "dependencies": {
+    "bull": "^3.13.0",
+    "md5": "^2.2.1",
+    "nedb-promise": "^2.0.1",
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
