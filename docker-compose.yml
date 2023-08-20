@@ -6,7 +6,7 @@ services:
         bot:
                 build: .
                 volumes:
-                        - 'mafs:/user/app/src/data'
+                        - 'mafs:/usr/app/src/data'
                 env_file:
                         - .env
                 depends_on:
